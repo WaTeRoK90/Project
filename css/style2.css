@@ -1,0 +1,171 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kelly Slab';
+
+}
+
+h1{
+    padding: 50px;
+    font-weight: 50;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    margin-bottom: 0px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: transparent;
+    transition: 0.5s;
+    background-color: rgba(217, 217, 217, 1) ;
+}
+
+.header.scrolled {
+    opacity: 0.7;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    width: 50px;
+}
+
+
+.nav-menu ul {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu li {
+    margin-left: 30px;
+}
+
+.navtxt1{
+    color: black;
+
+}
+
+.navtxt2{
+    color:rgba(0, 39, 140, 1);
+}
+
+.navtxt3{
+    color:black;
+}
+
+.navtxt4{
+    color:black;
+}
+
+.searchbar{
+    position: absolute;
+    left: 1660px;
+    top: 24px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.headimg{
+    width: 1906px;
+    margin-bottom: -13px;
+    margin-left:-3px;
+}
+
+.main{
+    text-align: center;
+    border:  1px black solid;
+    border-top: 0px;
+    font-size: 20px;
+}
+
+
+.main  a {
+    position: relative;
+    top: 30px;
+    bottom: 0px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 50px;
+    left: 5px;
+}
+
+.proflie{
+    position:absolute;
+    top: 16px;
+    left: 1845px;
+    width: 40px;
+    height: 40px;
+}
+
+.P1{
+    margin-top: -30px;
+    width: 1000px;
+    height: 700px;
+}
+
+.O2{
+    margin:100px;
+}
+
+.P2{
+    margin-top: -30px;
+    width: 1000px;
+    height: 700px;
+}
+
+.O3{
+    margin:100px;
+}
+
+.P3{
+    margin-top: -30px;
+    width: 1000px;
+    height: 700px;
+}
+
+.O4{
+    margin:100px;
+}
+
+.P4{
+    margin-top: -30px;
+    width: 1000px;
+    height: 700px;
+}
+
+.O5{
+    margin:100px;
+}
+
+.P5{
+    margin-top: -30px;
+    width: 1000px;
+    height: 700px;
+}

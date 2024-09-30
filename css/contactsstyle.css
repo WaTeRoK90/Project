@@ -1,0 +1,162 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kelly Slab';
+
+}
+
+h1{
+    padding: 50px;
+    font-weight: 50;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    margin-bottom: 0px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: transparent;
+    transition: 0.5s;
+    background-color: rgba(217, 217, 217, 1) ;
+}
+
+.searchbar{
+    position: absolute;
+    left: 1660px;
+    top: 24px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.header.scrolled {
+    opacity: 0.7;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.headimg{
+    width: 1906px;
+    margin-bottom: -13px;
+    margin-left:-3px;
+}
+
+.proflie{
+    position:absolute;
+    top: 16px;
+    left: 1845px;
+    width: 40px;
+    height: 40px;
+}
+
+.nav-menu ul {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu li {
+    margin-left: 30px;
+}
+
+.navtxt1{
+    color:black;
+}
+
+.navtxt4{
+    color:rgba(0, 39, 140, 1);
+}
+.navtxt2{
+    color:black;
+}
+
+.navtxt3{
+    color:black;
+}
+
+
+.obratnuj-zvonok{
+	width: 100%;
+	max-width: 350px;
+    margin: 0 auto;
+}
+.form-zvonok{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.form-zvonok div{
+	padding: 15px 0;
+}
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-zvonok label,.form-zvonok input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.form-zvonok label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.form-zvonok input{
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+.form-zvonok label span{
+	color: red;
+}
+.form-zvonok .bot-send-mail{
+	padding: 15px;
+	margin-top: 10px;
+	background: none;
+	border: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	background-color: #009b97;
+	cursor: pointer;
+	border: 3px #009b97 solid;
+	border-radius: 5px;
+}
+.form-zvonok .bot-send-mail:hover{
+	color: #009b97;
+	background-color: #fff;
+}
+.bot-send-mail{
+    margin-bottom: 100px;
+}
+
+.main{
+    margin-top: 30px;
+}
