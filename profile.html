@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пожетвования</title>
+    <link rel="stylesheet" href="css/contactsstyle.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img class="logo" src="img/logo.png" alt="Исторические здания Рязани">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+            <li><a class="navtxt1" href="page1.html">Музеи Рязани</a></li>
+            <li><a class="navtxt2" href="page2.html">Здания требующие реставрации</a></li>
+            <li><a class="navtxt3" href="page3.html">Памятники</a></li>
+            </ul>
+            <input type="text" maxlength= "100" placeholder="Поиск" class="searchbar">
+            <a href="profile.html"><img class="proflie" src="https://media.discordapp.net/attachments/1069592135252320300/1111311787900551228/169292.png" alt=""></a>
+        </nav>
+            </div>
+        </div>
+    </header>
+    <img class="headimg" src="img/header.png" alt="Image">
+    <div class="main">
+            <form class="obratnuj-zvonok" autocomplete="off" action='email.php' method='post'>
+            <div class="form-zvonok"> 
+        <div>
+            <label>Имя <span>*</span></label>
+            <input type='text' name='username' required></div>
+        <div>
+            <label>Номер карты<span>*</span></label>
+            <input type='text' name='usernumber' required></div>
+            <div>
+                <label>CVV<span>*</span></label>
+                <input type='text' name='usernumber' required></div>
+        <div>
+            <label>Срок действия<span>*</span></label>
+            <input type='text' name='usernumber' required></div>
+        <div>
+            <label>Сумма пожертвования<span>*</span></label>
+            <input type='text' name='question' required>
+        </div>
+        <input class="bot-send-mail" type='submit' value='Отправить пожертвование'>
+        </div>
+        </form>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
+
